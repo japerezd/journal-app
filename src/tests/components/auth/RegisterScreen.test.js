@@ -52,7 +52,6 @@ describe('Pruebas en <RegisterScreen />', () => {
                 name: 'email'
             }
         });
-
         wrapper.find('form').simulate('submit',{ preventDefault() {} });
 
         const actions = store.getActions();
